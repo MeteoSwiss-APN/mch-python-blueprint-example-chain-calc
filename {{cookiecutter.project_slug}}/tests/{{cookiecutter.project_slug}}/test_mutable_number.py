@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""Tests for `chain_calc` package."""
-from chain_calc.mutable_number import MutableNumber
+"""Tests for `{{ cookiecutter.project_slug }}` package."""
+from {{ cookiecutter.project_slug }}.mutable_number import MutableNumber
 
 
 def test_get():

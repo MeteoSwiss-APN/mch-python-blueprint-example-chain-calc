@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""Tests for package `chain_calc`."""
+"""Tests for package `{{ cookiecutter.project_slug }}`."""
 from click.testing import CliRunner
 
-from chain_calc import cli
+from {{ cookiecutter.project_slug }} import cli
 
 
 class _TestCLI:
